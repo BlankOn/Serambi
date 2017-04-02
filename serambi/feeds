@@ -6,20 +6,80 @@
 ## pick up the default faceheight only
 #facewidth = 59
 
-[https://tuanpembual.wordpress.com/tag/planet/feed/]
-name = Estu Fardani
+[http://www.somat.web.id/feeds/posts/default]
+name = Somat
 
-[http://aksi.mdamt.net/feeds/posts/default]
-name = MDAMT
+[https://fajran.web.id/feed/]
+name = Iang
 
-[https://imgos-belajarlinux.blogspot.com/feeds/posts/default]
-name = Sokhibi
+[http://ainul.smartikon.com/tag/blankon/feed/]
+name = Ainul Hakim
 
-[https://pr4ka5a.wordpress.com/feed/]
-name = Kaka Prakasa
+[https://tripledin.wordpress.com/category/linux/feed/]
+name = Mahyuddin Susanto
 
-[https://aftian.wordpress.com/feed/]
-name = Rahman Yusri Aftian
+[https://ahmadharis.wordpress.com/feed/]
+name = Ahmad Haris
+
+[http://invaleed.web.id/feed/]
+name = invaleed
+
+[https://rotyyu.wordpress.com/category/linux/feed/]
+name = Rotua Damanik
+
+#[http://blog.its.ac.id/haikal/category/gnu-linux/feed]
+#name = coneman
+
+[https://wiramaswara.blogspot.com/feeds/posts/default/-/BlankOn]
+name = Wiramaswara
+
+[https://ilalangmbojo.blogspot.com/feeds/posts/default]
+name = olanuxer
+
+[https://catatanpinguin.wordpress.com/feed/]
+name = sakrasemangat
+
+[http://skyisgrey.org/feed/]
+name = Andy Apdhani
+
+[https://dodolboks.wordpress.com/feed/]
+name = Alikusnadi
+
+[https://saatulihsan.wordpress.com/category/linux/feed/]
+name = Saujiro
+
+[https://flywrmtx.blogspot.com/feeds/posts/default/-/blankon]
+name = RameTux
+
+[https://muhidin.wordpress.com/feed/]
+name = Muhidin
+
+[https://hansen.alfansa.org/feed/]
+name = mht
+
+[http://budiwijaya.net/feed]
+name = Budiwijaya
+
+[https://kecambahlinux.blogspot.com/feeds/posts/default]
+name = KecambahLinux
+
+[https://takdir.blogspot.com/rss.xml]
+name = Muhammad Takdir
+
+#[http://www.jelajah.web.id/feed/]
+#name = Arman Satari
+
+#[http://insan.cahbag.us/feeds/posts/default]
+#name = Insan Sutejo
+
+#[http://www.adzymaniac.web.id/feed/]
+#name = Aji Kisworo Mukti
+
+#[http://linuz.web.id/?feed=rss2]
+#name = Adnan Kashogi
+
+[http://feeds.feedburner.com/LK-blankon]
+name = Fakhrul Rijal
 
 [http://blog.yht.web.id/tag/blankon/feed]
 name = Yudha HT
@@ -27,5 +87,72 @@ name = Yudha HT
 [https://fitraditya.wordpress.com/category/blankon/feed/]
 name = Rabitya
 
-[https://ahmadharis.wordpress.com/feed/]
-name = Ahmad Haris
+[https://pr4ka5a.wordpress.com/feed/]
+name = Kaka Prakasa
+
+#[https://mijortsa.blogspot.com/feeds/posts/default/]
+#name = Azis Ws
+
+#[http://surabaya.di.blankon.in/feed/]
+#name = Paguyuban Pengguna BlankOn Surabaya
+
+#[http://malang.di.blankon.in/web/feed]
+#name = Paguyuban Pengguna Blankon Malang
+
+# masih aktif namun tidak diketahui alamat RSS feed nya
+#[http://bekasi.di.blankon.in/rss.xml]
+#name = Komunitas BlankOn Bekasi
+
+[https://aftian.wordpress.com/feed/]
+name = Rahman Yusri Aftian
+
+#[http://fb.me/priyess]
+#name = Supriyadi
+
+[https://mattsapii.com/tag/linux/feed/]
+name = Syafii Ahmad
+
+[https://xunilresu.wordpress.com/feed/]
+name = xunilresu
+
+[https://adeazee.blogspot.com/feeds/posts/default]
+name = Ade Muhammad
+
+#alamat rss feed tidak diketahui
+#[http://aguspurnomo.web.id/blog/]
+#name = Agus Purnomo
+#
+#[http://gresik.di.blankon.in/blog/]
+#name = Gresik BlankOnan
+
+[http://jambi.di.blankon.in/feed/]
+name = BlankOn Jambi
+
+[https://imgos-belajarlinux.blogspot.com/feeds/posts/default]
+name = Sokhibi
+
+#[http://i15n.blankonlinux.or.id/projects/feed/]
+#name = i15n
+
+[https://dotovr.blogspot.com/feeds/posts/default]
+name = Mahyuddin Idram Ahmad
+
+[https://blogs.itb.ac.id/zakiakhmad/tag/blankonlinux/feed/]
+name = za
+
+[https://arifnd.wordpress.com/category/blankon/feed/]
+name = Ari Effendi
+
+[https://syaimif.wordpress.com/category/blankon/feed/]
+name = Syai Mif
+
+[http://feeds.feedburner.com/PaguyubanPenggunaBlankonMalang]
+name = BlankOn Malang
+
+[http://blog.pdft.net/feed.xml]
+name = Herpiko Dwi Aguno
+
+[http://aksi.mdamt.net/feeds/posts/default]
+name = MDAMT
+
+
