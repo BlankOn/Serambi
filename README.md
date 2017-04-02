@@ -5,17 +5,18 @@ Serambi BlankOn merupakan jendela untuk melihat dunia, aktivitas, serta kesehari
 ## Ujicoba Lumbung
 * Fork lumbung ini
 * Bangunkan venus ini  
-
+```
     $ cat serambi/config > serambi/config.ini
     $ cat serambi/feeds >> serambi/config.ini
     $ python planet.py serambi/config.ini
+```
 
 ## Jalankan dalam Localhost
 * Pindah ke direktori keluaran `www` dan jalankan webserver dari sini  
-
+```
     $ cd www
     $ python -m SimpleHTTPServer 8080
-
+```
 * Akses alamat `localhost:8080` dari peramban anda
 
 ## Menambahkan RSS Feed
