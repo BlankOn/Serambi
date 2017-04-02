@@ -1,0 +1,31 @@
+### DAFTAR KOMUNITAS ####
+
+# [http://blog.clearairturbulence.org/?flav=rss]
+# name = Thom May
+# face = thom.png
+## pick up the default faceheight only
+#facewidth = 59
+
+[https://tuanpembual.wordpress.com/tag/planet/feed/]
+name = Estu Fardani
+
+[http://aksi.mdamt.net/feeds/posts/default]
+name = MDAMT
+
+[https://imgos-belajarlinux.blogspot.com/feeds/posts/default]
+name = Sokhibi
+
+[https://pr4ka5a.wordpress.com/feed/]
+name = Kaka Prakasa
+
+[https://aftian.wordpress.com/feed/]
+name = Rahman Yusri Aftian
+
+[http://blog.yht.web.id/tag/blankon/feed]
+name = Yudha HT
+
+[https://fitraditya.wordpress.com/category/blankon/feed/]
+name = Rabitya
+
+[https://ahmadharis.wordpress.com/feed/]
+name = Ahmad Haris

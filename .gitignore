@@ -1,0 +1,7 @@
+*.tmplc
+.DS_Store
+cache
+*.pluginc
+*.pyc
+www
+serabi/config.ini

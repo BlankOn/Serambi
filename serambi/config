@@ -1,0 +1,33 @@
+# Planet configuration file based on the 'fancy' Planet 2.0 example.
+#
+# This illustrates some of Planet's fancier features with example.
+
+# Every planet needs a [Planet] section
+[Planet]
+name = Serambi BlankOn
+link = http://serambi.blankonlinux.or.id/
+owner_name = BlankOn Linux
+owner_email = BlankOn-dev@googlegroups.com
+
+# cache_directory: Where cached feeds are stored
+# log_level: One of DEBUG, INFO, WARNING, ERROR or CRITICAL
+# feed_timeout: number of seconds to wait for any given feed
+
+cache_directory = cache
+log_level = DEBUG
+feed_timeout = 20
+
+output_theme = blankon
+output_dir = www
+items_per_page = 60
+
+# additional files to copy (note the wildcards!)
+bill_of_materials:
+  images/#{face} 
+
+[DEFAULT]
+# Hackergotchi default size.
+facewidth = 72
+faceheight = 72
+face = mugshot.png
+

@@ -1,0 +1,183 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+    <title><TMPL_VAR name></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="generator" content="<TMPL_VAR generator ESCAPE="HTML">">
+    <link rel="stylesheet" href="planet.css" type="text/css">
+    <link rel="icon" href="images/blankon.ico" type="image/x-icon">
+    <TMPL_IF feedtype>
+    <link rel="alternate" href="<TMPL_VAR feed ESCAPE="HTML">" title="<TMPL_VAR channel_title_plain ESCAPE="HTML">" type="application/<TMPL_VAR feedtype>+xml">
+    </TMPL_IF>
+</head>
+
+<body>
+    <div id="container">
+        <!-- === Banner === -->
+        <div id="banner">
+            <div id="header">
+                <a id="logo" href="http://dev.blankonlinux.or.id/">
+                    <img src="images/blankon.png" alt="BlankOn">
+                </a>
+            </div>
+
+            <div id="header2">
+                <div id="nama">
+                    <a href="<TMPL_VAR link ESCAPE="HTML">">
+                        <TMPL_VAR name>
+                    </a>
+                </div>
+                
+                <div id="tanggal">
+                    <TMPL_VAR date>
+                </div>
+            </div>
+
+        </div>
+        <!-- === end of Banner === -->
+        
+        <!-- === Navigation === -->
+        <div id="mainnav" class="nav">
+            <ul>
+                <li class="active"><a href="http://serambi.blankonlinux.or.id">Serambi</a></li>
+                <li> <a href="http://blankonlinux.or.id">Beranda</a></li>
+                <!-- <li> <a href="http://dev.blankonlinux.or.id">Pengembang</a></li>
+                <li> <a href="http://dev.blankonlinux.or.id">Forum</a></li> -->
+            </ul>
+        </div>
+        <!-- === end of Navigation === -->
+
+        <!-- === container === -->
+        <div id="container2">
+            <!-- === Body Content === -->
+            <div id="bodycontent">
+                <TMPL_LOOP Items>
+
+                    <TMPL_IF new_channel>
+
+                            <div class="person-info">
+                                <a href="<TMPL_VAR channel_link ESCAPE="HTML">" 
+                                    title="<TMPL_VAR channel_title_plain ESCAPE="HTML">">
+                                    <TMPL_IF channel_face>
+                                        <img src="images/<TMPL_VAR channel_face ESCAPE="HTML">" 
+                                        width="<TMPL_VAR channel_facewidth ESCAPE="HTML">" 
+                                        height="<TMPL_VAR channel_faceheight ESCAPE="HTML">" 
+                                        alt="<TMPL_VAR channel_name>">
+                                    </TMPL_IF>
+                                    <br>
+                                    <TMPL_VAR channel_name>
+                                </a>
+                            </div>
+
+                    </TMPL_IF>
+
+                    <div class="post" id="<TMPL_VAR id>"<TMPL_IF channel_language> lang="<TMPL_VAR channel_language>"
+                        </TMPL_IF>>
+
+                        <div class="post-header">
+                            <TMPL_IF title>
+                                <h4 class="post-title" <TMPL_IF title_language> lang="<TMPL_VAR title_language>"</TMPL_IF>>
+                                    <a href="<TMPL_VAR link ESCAPE="HTML">"><TMPL_VAR title></a>
+                                </h4>
+                            </TMPL_IF>
+                        </div>
+
+                        <div class="post-contents"<TMPL_IF content_language> lang="<TMPL_VAR content_language>"</TMPL_IF>>
+                            <TMPL_VAR content>
+                        </div>
+                        
+                        <p class="post-footer">
+                            <a href="<TMPL_VAR link ESCAPE="HTML">">
+                                <TMPL_IF author>
+                                    Oleh <TMPL_VAR author ESCAPE="HTML"> 
+                                    Pada </TMPL_IF><TMPL_VAR date><TMPL_IF category> 
+                                    Dibawah <TMPL_VAR category>
+                                </TMPL_IF>
+                            </a>
+                        </p>
+
+                        <b class="vt lt"></b>
+                        <b class="vt rt"></b>
+                        <b class="hz to"></b>
+                        <b class="hz bo"></b>
+                        
+                        <b class="cr tl"></b>
+                        <b class="cr tr"></b>
+                        <b class="cr bl"></b>
+                        <b class="cr br"></b>
+
+                    </div>
+                    
+                </TMPL_LOOP>
+            </div>
+            <!-- === end of Body Content === -->
+
+            <!-- === Planet Menu === -->
+            <div id="sidebar">
+
+                <h2>Serambi BlankOn : </h2>
+                <p>
+                    Serambi BlankOn merupakan jendela untuk melihat dunia, aktivitas, serta keseharian para <a href="http://dev.blankonlinux.or.id">Pengembang BlankOn</a>.
+                 </p>
+                 <p>
+                    Daftar penghuni Serambi BlankOn dapat di lihat dan di kelola pada <a href="http://dev.blankonlinux.or.id/wiki/Infrastruktur/Planet/Daftar">Halaman Pengembang</a>
+                 </p>
+                 <p>
+                    Hubungi <a href="mailto:blankon-dev@googlegroups.com">Pengelola</a> jika menemukan masalah pada halaman tersebut atau pada Serambi BlankOn <br>
+                </p>
+                <p>
+                    Terakhir di perbaharui:<br>
+                    <TMPL_VAR date><br>
+                    <em>Waktu pada UTC.</em><br> <br>
+                </p>
+
+
+                <h2>Rakyat BlankOn : </h2>
+                <ul>
+                    <TMPL_LOOP Channels>
+                        <li>
+                            <a href="<TMPL_VAR url ESCAPE="HTML">" title="subscribe">
+                                <img src="images/feed-icon-10x10.png" alt="(feed)">
+                            </a>
+                            <a <TMPL_IF link>href="<TMPL_VAR link ESCAPE="HTML">" </TMPL_IF>
+                                <TMPL_IF message>class="message" title="<TMPL_VAR message ESCAPE="HTML">"</TMPL_IF>
+                                <TMPL_UNLESS message>title="<TMPL_VAR title_plain ESCAPE="HTML">"</TMPL_UNLESS>>
+                                <TMPL_VAR name>
+                            </a>
+                        </li>
+                    </TMPL_LOOP>
+                </ul>
+
+                <h2>Sindikasi : </h2>
+                <ul>
+                    <li><a href="/atom.xml"><img src="images/feed-icon-10x10.png" alt="(feed)"> ATOM</a></li>
+                    <li><a href="/foafroll.xml"><img src="images/feed-icon-10x10.png" alt="(feed)"> FOAFROLL</a></li>
+                    <li><a href="/opml.xml"><img src="images/feed-icon-10x10.png" alt="(feed)"> OPML</a></li>
+                    <li><a href="/rss10.xml"><img src="images/feed-icon-10x10.png" alt="(feed)"> RSS10</a></li>
+                    <li><a href="/rss20.xml"><img src="images/feed-icon-10x10.png" alt="(feed)"> RSS20</a></li>
+                </ul>
+
+        </div>
+            <!-- === end of Planet Menu === -->
+        </div>
+        <!-- === container === -->
+        
+        <!-- === Footer === -->
+        <div id="footer">
+            <hr>
+            <p> &copy; 2005-2017, <a href="http://www.ypli.or.id/">Yayasan Penggerak Linux Indonesia</a>,
+                &copy; 2007-2017 <a href="http://www.ubuntu-id.org/">Komunitas Ubuntu Indonesia</a>,
+                <a href="http://dev.blankonlinux.or.id/">Tim Pengembang BlankOn</a> <br>
+                Agregate entri blog di halaman ini adalah milik dan mewakili pendapat dari penulisnya. <br>
+                Powered by: <a href="http://www.planetplanet.org/"> planetplanet </a>
+           </p>
+        </div>
+        <!-- === end of Footer === -->
+    </div>
+</body>
+
+</html>
+
+
+
