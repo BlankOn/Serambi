@@ -4,7 +4,7 @@ Serambi BlankOn merupakan jendela untuk melihat dunia, aktivitas, serta kesehari
 
 ## Ujicoba Lumbung
 * Fork lumbung  
-`$ git clone https://github.com/BlankOn/Serambi.git
+`$ git clone https://github.com/BlankOn/Serambi.git`
 * Bangunkan venus ini  
 ```
     $ cat serambi/config > serambi/config.ini
