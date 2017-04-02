@@ -8,7 +8,6 @@ Serambi BlankOn merupakan jendela untuk melihat dunia, aktivitas, serta kesehari
 $ git clone https://github.com/BlankOn/Serambi.git
 $ cd Serambi
 ```
->>>>>>> eef6bf5a6c8ff7caa92151e1a18833112afab273
 * Bangunkan venus ini  
 ```
     $ cat serambi/config > serambi/config.ini
