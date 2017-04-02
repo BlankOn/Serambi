@@ -1,4 +1,4 @@
-# 🌎 [Serambi](serambi.blankonlinux.or.id)
+# 🌎 [Serambi](http://serambi.blankonlinux.or.id)
 
 Serambi BlankOn merupakan jendela untuk melihat dunia, aktivitas, serta keseharian para Pengembang BlankOn.
 
@@ -25,4 +25,4 @@ Jika ingin menambahkan blog anda ke sindikasi, kami menyarankan melalui pull req
   * [hackergotchi](https://en.wikipedia.org/wiki/Hackergotchi)
 * Kirim pull request ketika sudah selesai
 
-Alternatif lain degnan mengirimkan surel ke darian@di.blankon.in - tetapi Anda tidak akan mampir kesini jika kirim email bukan? ;-)
+Alternatif lain dengan mengirimkan surel ke darian@di.blankon.in - tetapi Anda tidak akan mampir kesini jika kirim email bukan? ;-)
