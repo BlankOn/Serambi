@@ -1,6 +1,6 @@
 *.tmplc
-cache/*
-output/*
+cache/
+www/
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
