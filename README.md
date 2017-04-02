@@ -3,7 +3,7 @@
 Serambi BlankOn merupakan jendela untuk melihat dunia, aktivitas, serta keseharian para Pengembang BlankOn.
 
 ## Ujicoba Lumbung
-* Fork lumbung  
+* Salin lumbung di mesin lokal  
 ```
 $ git clone https://github.com/BlankOn/Serambi.git
 $ cd Serambi
