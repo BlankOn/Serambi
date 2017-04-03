@@ -120,6 +120,9 @@ name = Herpiko Dwi Aguno
 [http://aksi.mdamt.net/feeds/posts/default]
 name = MDAMT
 
+[https://linhub.io/rss]
+name = Ngalim Siregar
+
 ## Legacy
 
 #[http://blog.its.ac.id/haikal/category/gnu-linux/feed]
@@ -162,6 +165,3 @@ name = MDAMT
 
 #[http://i15n.blankonlinux.or.id/projects/feed/]
 #name = i15n
-
-#[https://linhub.io/rss]
-#name = Ngalim Siregar
