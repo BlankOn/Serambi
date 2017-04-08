@@ -255,7 +255,7 @@ div.post-header {
 .post-contents ul li {
 	margin: 1em;
 	padding: 0px;
-	list-style-image: url(images/favicon.ico);
+	list-style-image: url(images/dot.ico);
 }
 
 .post-contents .delicious-tags {
