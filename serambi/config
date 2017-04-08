@@ -7,7 +7,7 @@
 name = Serambi BlankOn
 link = http://serambi.blankonlinux.or.id/
 owner_name = BlankOn Linux
-owner_email = BlankOn-dev@googlegroups.com
+owner_email = blankOn-dev@googlegroups.com
 
 # cache_directory: Where cached feeds are stored
 # log_level: One of DEBUG, INFO, WARNING, ERROR or CRITICAL
@@ -28,6 +28,6 @@ bill_of_materials:
 [DEFAULT]
 # Hackergotchi default size.
 facewidth = 72
-faceheight = 72
-face = mugshot.png
+faceheight = 99
+face = boni_ngetik.png
 

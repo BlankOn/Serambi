@@ -5,3 +5,9 @@ cache
 *.pyc
 www
 serambi/config.ini
+themes/asf
+themes/classic_fancy
+themes/django
+themes/genshi_fancy
+themes/mobile
+themes/musings
