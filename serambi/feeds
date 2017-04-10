@@ -123,6 +123,9 @@ name = MDAMT
 [https://linhub.io/rss.xml]
 name = Ngalim Siregar
 
+[https://anindito.my.id/tag/opensource/rss/]
+name = Benediktus 'beben' Anindito
+
 ## Legacy
 
 #[http://blog.its.ac.id/haikal/category/gnu-linux/feed]
