@@ -6,7 +6,7 @@
 # face = thom.png
 # facewidth = 59
 
-[http://www.winardiaris.xyz/feed/]
+[http://www.winardiaris.xyz/blog/feed.xml]
 name = Aris Winardi
 
 [https://tuanpembual.wordpress.com/category/linux/feed/]
